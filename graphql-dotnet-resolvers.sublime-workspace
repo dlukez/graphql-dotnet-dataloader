@@ -1,0 +1,1889 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"adv",
+				"advanceWidth"
+			],
+			[
+				"svNavb",
+				"svNavbarComponent"
+			],
+			[
+				"root",
+				"rootDetectionMode"
+			],
+			[
+				"svInclude",
+				"svIncludeDirectiveFactory"
+			],
+			[
+				"SvTre",
+				"SvTreeBuilderFilterFactory"
+			],
+			[
+				"SVQuery",
+				"svQueryDefaults"
+			],
+			[
+				"SVS",
+				"SVStatisticComponent"
+			],
+			[
+				"sv-st",
+				"sv-statisticbox-icon"
+			],
+			[
+				"sv-stat",
+				"sv-statisticbox-label"
+			],
+			[
+				"SVBoxElemen",
+				"SVBoxElementPrototype"
+			],
+			[
+				"SVBox",
+				"SVBoxElementPrototype"
+			],
+			[
+				"SvTra",
+				"SvTrafficlightColorFactory"
+			],
+			[
+				"Sv",
+				"SvTrafficlightFilter"
+			],
+			[
+				"svTe",
+				"svTableTemplate"
+			],
+			[
+				"Flo",
+				"FloorplanEditorActions"
+			],
+			[
+				"line",
+				"doLineSegmentsIntersect"
+			],
+			[
+				"floor",
+				"FLOORPLAN_RELATIVE_DIRECTORY"
+			],
+			[
+				"FLOORPLAN",
+				"FLOORPLAN_RELATIVE_DIRECTORY"
+			],
+			[
+				"sendKey",
+				"sendKeyDown"
+			],
+			[
+				"maxTa",
+				"maxTagsEnforced"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"http",
+				"httpBackend_"
+			],
+			[
+				"caret",
+				"caretPosition"
+			],
+			[
+				"recurs",
+				"recursivelyConvertToTypes"
+			],
+			[
+				"titleBar",
+				"titleBarDirective"
+			],
+			[
+				"viewAnimation",
+				"fwViewAnimationProvider"
+			],
+			[
+				"fw",
+				"fwViewAnimationProvider"
+			],
+			[
+				"slide-",
+				"slide-transition-duration"
+			],
+			[
+				"update",
+				"updateExerciseType"
+			],
+			[
+				"dzStop",
+				"dzStopwatchService"
+			],
+			[
+				"custom",
+				"customType"
+			],
+			[
+				"pastwork_url",
+				"pastwork_url_before_hash"
+			],
+			[
+				"pastwork_",
+				"pastwork_url_parts"
+			],
+			[
+				"past",
+				"pastwork_url_parts"
+			],
+			[
+				"DAH",
+				"DASHBOARD_REPLACEMENT_URL"
+			],
+			[
+				"lorem",
+				"lorem\tlorem - Medium paragraph <p>"
+			],
+			[
+				"selec",
+				"selected"
+			],
+			[
+				"Simple_f",
+				"Simple_Featured_Post_Widget"
+			],
+			[
+				"modif",
+				"modify_view_page_to_go_to_archive"
+			],
+			[
+				"MU",
+				"MUNICIPALITY_TAX"
+			],
+			[
+				"muni",
+				"municipality_tax"
+			],
+			[
+				"build",
+				"build_option_name"
+			],
+			[
+				"wp_dropdown",
+				"wp_dropdown_pages"
+			],
+			[
+				"is_object_in",
+				"is_object_in_taxonomy"
+			],
+			[
+				"is_taxonomy",
+				"is_object_in_taxonomy  (function)"
+			],
+			[
+				"get_quer",
+				"get_queried_object"
+			],
+			[
+				"initi",
+				"initiative_type"
+			],
+			[
+				"register_taxon",
+				"register_taxonomy_for_object_type"
+			],
+			[
+				"New",
+				"No_Link_For_Current_Category_Walker  (class)"
+			],
+			[
+				"Municipal",
+				"municipalities"
+			],
+			[
+				"post",
+				"postcodes_to_locality"
+			],
+			[
+				"vic_",
+				"VIC_POSTCODES_FILEPATH"
+			],
+			[
+				"get_cate",
+				"get_category_parents"
+			],
+			[
+				"sideb",
+				"sidebar_templates"
+			],
+			[
+				"should",
+				"should_display_for_templates"
+			],
+			[
+				"black_studio",
+				"black_studio_widget_style_path"
+			],
+			[
+				"black",
+				"black_studio_widget_script_path"
+			],
+			[
+				"blac",
+				"black-studio-tinymce-widget"
+			],
+			[
+				"wp_register",
+				"wp_register_script"
+			],
+			[
+				"get_template_",
+				"get_template_directory_uri"
+			],
+			[
+				"get_stylesheet_dire",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"register_si",
+				"register_sidebar_widget"
+			],
+			[
+				"project_over",
+				"project_overview_pdf_files"
+			],
+			[
+				"proec",
+				"project_overview_pdf"
+			],
+			[
+				"proj",
+				"project_overview_pdf_files"
+			],
+			[
+				"mimes",
+				"upload_mimes"
+			],
+			[
+				"bw_projec",
+				"bw_project_overview_pdf"
+			],
+			[
+				"get_custom",
+				"get_post_custom_keys"
+			],
+			[
+				"load",
+				".load\t.load"
+			],
+			[
+				"get_terms",
+				"get_terms"
+			],
+			[
+				"get_c",
+				"get_category"
+			],
+			[
+				"bw_project",
+				"bw_project_category"
+			],
+			[
+				"get_post_thumbnail",
+				"get_the_post_thumbnail"
+			],
+			[
+				"wp_get_thumb",
+				"wp_get_attachment_thumb_url"
+			],
+			[
+				"wp_get_",
+				"wp_get_attachment_image_src"
+			],
+			[
+				"zi",
+				"zip"
+			],
+			[
+				"zip",
+				"zippedfile"
+			],
+			[
+				"inc",
+				"include_subpages"
+			],
+			[
+				"bw_",
+				"bw_show_bookmarks"
+			],
+			[
+				"color",
+				"src_to_color"
+			],
+			[
+				"is_tax",
+				"is_taxonomy"
+			],
+			[
+				"is_post_type",
+				"is_post_type_archive"
+			],
+			[
+				"wp_update_nav_",
+				"wp_update_nav_menu_item"
+			],
+			[
+				"wp_nav_menu_items",
+				"wp_get_nav_menu_items"
+			],
+			[
+				"color-",
+				"color-charcoal"
+			],
+			[
+				"wp_get_atta",
+				"wp_get_attachment_thumb_url"
+			],
+			[
+				"get_template_dire",
+				"get_template_directory"
+			],
+			[
+				"register_nav_",
+				"register_nav_menu"
+			],
+			[
+				"get_template_direc",
+				"get_template_directory_uri"
+			],
+			[
+				"ar",
+				"args"
+			],
+			[
+				"post_type",
+				"post_type_object"
+			],
+			[
+				"p2p_",
+				"p2p_distribute_connected"
+			],
+			[
+				"writer_",
+				"writer_article_blurb_test"
+			],
+			[
+				"bw_create_subc",
+				"bw_create_subcontractor_meta_boxes"
+			],
+			[
+				"bw_create",
+				"bw_create_project_meta_boxes"
+			],
+			[
+				"bw_create_client",
+				"bw_create_client_meta_boxes"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 125.0,
+		"last_filter": "omni add ",
+		"selected_items":
+		[
+			[
+				"omni add ",
+				"OmniSharpSublime: Add New Class"
+			],
+			[
+				"omni add",
+				"OmniSharpSublime: Add New Class"
+			],
+			[
+				"omni",
+				"OmniSharpSublime: Show Info Panel"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"sublimere",
+				"OmniSharpSublime: ReBuild"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"omnisharp",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"omnis",
+				"OmniSharpSublime: Show Server Output"
+			],
+			[
+				"omnisha output",
+				"OmniSharpSublime: Show Server Output"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"solution",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"build",
+				"OmniSharpSublime: Build"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"terminal",
+				"Terminal: Open"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"omnisharp\t",
+				"OmniSharpSublime: Show Info Panel"
+			],
+			[
+				"instlal",
+				"Package Control: Install Package"
+			],
+			[
+				"omnish",
+				"OmniSharpSublime: Show Server Output"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"omni output",
+				"OmniSharpSublime: Show Server Output"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"ss javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss c#",
+				"Set Syntax: C#"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"preference",
+				"Preferences: Settings"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"upgrade all",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"rename",
+				"Emmet: Rename Tag"
+			],
+			[
+				"emmet remove",
+				"Emmet: Remove Tag"
+			],
+			[
+				"close tag",
+				"Tag: Close Tag"
+			],
+			[
+				"emmet",
+				"Emmet: Rename Tag"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"ssjavasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"sstext",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instlal package",
+				"Package Control: Install Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pacage",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssjava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssxml",
+				"Set Syntax: XML"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"ssless",
+				"Set Syntax: LESS"
+			],
+			[
+				"wordwrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"insert tag",
+				"Tag: Insert as Tag"
+			],
+			[
+				"ssjavascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sublime",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ssjavascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"open",
+				"WordPress Codex: Search Selection"
+			],
+			[
+				"ss php",
+				"Set Syntax: PHP"
+			],
+			[
+				"list packages",
+				"Package Control: List Packages"
+			],
+			[
+				"snippet",
+				"Snippet: Theme Head"
+			],
+			[
+				"upload",
+				"SFTP: Upload File"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"min",
+				"Recess: Compile into new CSS file"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"minify",
+				"Minify Javascript to file"
+			],
+			[
+				"plugin",
+				"Snippet: Plugin Head"
+			],
+			[
+				"calc",
+				"Calculate"
+			],
+			[
+				"package ",
+				"Package Control: Remove Package"
+			],
+			[
+				"prett",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"m",
+				"Minify Javascript to file"
+			],
+			[
+				"foma",
+				"Format: Javascript"
+			],
+			[
+				"live",
+				"Live CSS: Toggle globally"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"Snippet: ",
+				"Snippet: foreach …"
+			],
+			[
+				"Snippet: foreach",
+				"Snippet: foreach …"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 91.0,
+		"history":
+		[
+			"call clear",
+			"clear",
+			"exec",
+			"glue",
+			"git status",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": true
+	},
+	"expanded_folders":
+	[
+		"/D/Dan/Git/graphql-dotnet-resolve"
+	],
+	"file_history":
+	[
+		"/Users/dan/Repositories/graphql-dotnet-resolvers/Resolvers/CollectionResolver.cs",
+		"/Users/dan/Repositories/graphql-dotnet-resolvers/project.json",
+		"/Users/dan/Repositories/graphql-dotnet-resolvers/Program.cs",
+		"/Users/dan/Repositories/graphql-dotnet-resolvers/graphql-dotnet-resolvers.sublime-project",
+		"/Users/dan/Library/Application Support/Sublime Text 3/Packages/OmniSharp/PrebuiltOmniSharpServer/omnisharp",
+		"/Users/dan/Library/Application Support/Sublime Text 3/Packages/OmniSharp/PrebuiltOmniSharpServer/omnisharp.cmd",
+		"/Users/dan/Library/Application Support/Sublime Text 3/Packages/OmniSharp/PrebuiltOmniSharpServer/OmniSharp.exe.config",
+		"/Users/dan/Library/Application Support/Sublime Text 3/Packages/OmniSharp/README.md",
+		"/Users/dan/Library/Application Support/Sublime Text 3/Packages/OmniSharp/PrebuiltOmniSharpServer/config.json",
+		"/Users/dan/Repositories/graphql-dotnet-resolvers/GraphQL.Resolvers.sln",
+		"/Users/dan/Repositories/graphql-dotnet-resolvers/GraphQL.Resolutions.sln",
+		"/Users/dan/Repositories/GraphQL.Resolutions/GraphQL.Resolutions.Tests/project.json",
+		"/Users/dan/Repositories/GraphQL.Resolutions/GraphQL.Resolutions.Console/project.json",
+		"/Users/dan/Repositories/GraphQL.Resolutions/GraphQL.Resolutions/project.json",
+		"/Users/dan/Repositories/GraphQL.Resolutions/GraphQL.Resolutions/GraphQL.Resolutions.xproj",
+		"/Users/dan/Repositories/GraphQL.Resolutions/GraphQL.Resolutions.Console/GraphQL.Resolutions.Console.xproj",
+		"/Users/dan/Repositories/GraphQL.Resolutions/GraphQL.Resolutions.Tests/GraphQL.Resolutions.Tests.xproj",
+		"/Users/dan/Repositories/GraphQL.Resolutions/GraphQL.Resolutions.Console/README.md",
+		"/Users/dan/Repositories/GraphQL.Resolutions/GraphQL.Resolutions/project.lock.json",
+		"/Users/dan/Repositories/GraphQL.Resolutions/GraphQL.Resolutions.Console/project.lock.json",
+		"/Users/dan/Repositories/lucky-penny/luckypenny.txt",
+		"/Users/dan/Repositories/lucky-penny/pdfs/Afternoon Tea Packages.pdf",
+		"/Users/dan/Repositories/graphql-dotnet-resolve/Schema/DroidType.cs",
+		"/Users/dan/Repositories/graphql-dotnet-resolve/Schema/HumanType.cs",
+		"/Users/dan/Repositories/graphql-dotnet-resolve/DataModel/StarWarsContext.cs",
+		"/Users/dan/Repositories/graphql-dotnet-resolve/Schema/CharacterInterface.cs",
+		"/Users/dan/Repositories/dashboards/dashboard/portfolio.html",
+		"/Users/dan/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/dan/Repositories/graphql-dotnet-resolve/terminal.glue",
+		"/Users/dan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/dan/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/dan/Repositories/sv-branding/index.js",
+		"/Users/dan/Repositories/sv-branding/output/workplace.svg",
+		"/Users/dan/Repositories/sv-branding/template.svg",
+		"/Users/dan/Repositories/sv-branding/node_modules/opentype.js/src/font.js",
+		"/Users/dan/Repositories/sv-branding/pipeline/kern.js",
+		"/Users/dan/Repositories/sv-branding/node_modules/opentype.js/dist/opentype.js",
+		"/Users/dan/Repositories/sv-branding/output/locator.svg",
+		"/Users/dan/Repositories/sv-branding/pipeline/capitalize.js",
+		"/Users/dan/Repositories/sv-branding/node_modules/clap/README.md",
+		"/Users/dan/Repositories/sv-branding/test.svg",
+		"/Users/dan/Repositories/sv-branding/old.svg",
+		"/Users/dan/Downloads/Serraview-Portfolio-Dashboard.svg",
+		"/Users/dan/Repositories/dashboards/assets/brand.svg",
+		"/Users/dan/Repositories/sv-branding/pipeline/index.js",
+		"/Users/dan/Documents/Work/Coding/l33tcode_construct_tree_from_traversal",
+		"/Users/dan/Documents/Work/Lucky Penny/luckypenny.txt",
+		"/Users/dan/Documents/luckypenny.txt",
+		"/Users/dan/Git/dashboards/index.html",
+		"/Users/dan/Git/dashboards/platform/components/legend.html",
+		"/Users/dan/Git/dashboards/dashboard/portfolio.html",
+		"/Users/dan/Git/dashboards/platform/services/query.html",
+		"/Users/dan/Git/dashboards/platform/behaviours/selection.html",
+		"/Users/dan/Git/dashboards/platform/services/selection.html",
+		"/Users/dan/Git/dashboards/index.js",
+		"/Users/dan/Git/dashboards/platform/index.html",
+		"/Users/dan/Git/dashboards/platform/services/tree.html",
+		"/Users/dan/Git/dashboards/platform/behaviours/expandable.html",
+		"/Users/dan/Git/dashboards/dashboard/keyMetrics.html",
+		"/Users/dan/Git/dashboards/platform/chart.html",
+		"/Users/dan/Git/dashboards/node_modules/angular/angular.js",
+		"/Users/dan/Git/dashboards/dashboard/next.html",
+		"/Users/dan/Git/dashboards/platform/components/chart.html",
+		"/Users/dan/Library/Saved Searches/.DockTags/Jungle Time Mashup.tag0.savedSearch",
+		"/Users/dan/Git/dashboards/dashboard/location.html",
+		"/Users/dan/Git/dashboards/platform/reporting/index.html",
+		"/Users/dan/Git/dashboards/dashboard/hierarchy.html",
+		"/Users/dan/Git/dashboards/platform/extensions/chart.html",
+		"/Users/dan/Git/dashboards/scripts/server/orgunits.json",
+		"/Users/dan/Git/dashboards/scripts/server/data.har",
+		"/Users/dan/Git/dashboards/platform/behaviours/init.html",
+		"/Users/dan/Git/dashboards/node_modules/highcharts-ng/dist/highcharts-ng.js",
+		"/Users/dan/Git/dashboards/index.css",
+		"/Users/dan/Git/dashboards/platform/components/box.html",
+		"/Users/dan/Git/dashboards/scripts/server/index.js",
+		"/Users/dan/Git/dashboards/dashboard/catalog.html",
+		"/Users/dan/Git/dashboards/node_modules/highcharts/highcharts.src.js",
+		"/Users/dan/Git/dashboards/platform/services/http.html",
+		"/Users/dan/Git/dashboards/node_modules/highcharts/highcharts.js",
+		"/Users/dan/Git/dashboards/node_modules/moment/moment.js",
+		"/Users/dan/Git/dashboards/platform/filters.html",
+		"/Users/dan/Git/dashboards/platform/components/panel.html",
+		"/Users/dan/Git/dashboards/node_modules/sv-icons/src/bang.svg",
+		"/Users/dan/Git/dashboards/platform/components/button.html",
+		"/Users/dan/Git/dashboards/platform/components/tag.html",
+		"/Users/dan/Git/dashboards/platform/components/include.html",
+		"/Users/dan/Git/dashboards/platform/behaviours/input.html",
+		"/Users/dan/Git/dashboards/package.json",
+		"/Users/dan/Downloads/Smash Bros 64 Mupen.CT",
+		"/Users/dan/Git/dashboards/platform/behaviours/fixed-header.html",
+		"/Users/dan/Git/dashboards/scripts/server/service/instance.json",
+		"/Users/dan/Git/dashboards/scripts/server/service/whoami.json",
+		"/Users/dan/Git/dashboards/scripts/server/data/1.har",
+		"/Users/dan/Git/dashboards/platform/components/icons/template.css.hbs",
+		"/Users/dan/Git/dashboards/platform/components/icons/package.json",
+		"/Users/dan/Git/dashboards/platform/components/icons/generate.js",
+		"/Users/dan/Git/dashboards/platform/components/icons/template.html.hbs",
+		"/Users/dan/Git/dashboards/node_modules/webfonts-generator/src/index.js",
+		"/Users/dan/Git/dashboards/platform/components/icons/template.hbs",
+		"/Users/dan/Git/dashboards/platform/components/icons/dist/sv-icons.html",
+		"/Users/dan/Git/dashboards/platform/components/icons/supyo.woff",
+		"/Users/dan/Git/dashboards/scripts/font/template.hbs",
+		"/Users/dan/Git/dashboards/test.js",
+		"/Users/dan/Git/dashboards/platform/components/icons/index.html",
+		"/Users/dan/Git/dashboards/scripts/font/generate.js",
+		"/Users/dan/Git/dashboards/node_modules/webfonts-generator/templates/html.hbs",
+		"/Users/dan/Git/dashboards/integration/underscore.js",
+		"/Users/dan/Git/dashboards/api.js",
+		"/Users/dan/Git/dashboards/platform/services/alerts.html",
+		"/Users/dan/Git/dashboards/platform/services/errors.html",
+		"/Users/dan/Git/dashboards/platform/services/alert.html",
+		"/Users/dan/Git/dashboards/node_modules/underscore/underscore.js",
+		"/Users/dan/Git/dashboards/node_modules/angular-underscore/angular-underscore.js",
+		"/Users/dan/Git/dashboards/karma.conf.js",
+		"/Users/dan/Git/dashboards/assets/fonts/sv-icons/sv-icons.css",
+		"/Users/dan/Git/dashboards/scripts/server/query/teams.json",
+		"/Users/dan/Git/dashboards/scripts/server/query/orgunits.json",
+		"/Users/dan/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/dan/Git/dashboards/scripts/server/query/orderkeys.sh",
+		"/Users/dan/Git/dashboards/scripts/server/query/regions.json",
+		"/Users/dan/Git/dashboards/scripts/server/query-orgUnits.json",
+		"/Users/dan/Git/dashboards/scripts/server/count.json",
+		"/Users/dan/Git/dashboards/scripts/server/query-$id.json",
+		"/Users/dan/Git/dashboards/scripts/server/query-main.json",
+		"/Users/dan/Git/dashboards/scripts/server/query-metrics.json",
+		"/Users/dan/Git/dashboards/scripts/server/query-regions.json",
+		"/Users/dan/Git/dashboards/scripts/server/query-teams.json",
+		"/Users/dan/Git/dashboards/scripts/server/query-overCapacityTeamsCount.json"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"node_modules/angular/, -*.min.js",
+			"node_modules/angular/",
+			"-node_modules/",
+			"",
+			"-node_modules/",
+			"",
+			"api/",
+			"",
+			"**/*.php",
+			"",
+			"src/**/*.js",
+			"../",
+			"./src/",
+			"src/",
+			"/src/",
+			"~/src/",
+			"./src/",
+			"src/",
+			"",
+			"/Users/dan/Git/angular-forms/test/lib",
+			"src/",
+			"web-ui/src/",
+			"web-ui/",
+			"web-ui/src/",
+			"/Users/dan/Dropbox/ZMACC/Web Dev/Freeweight/web-ui/src/common/slideBox",
+			"web-ui/src/",
+			"web-ui/",
+			"web-ui/src/",
+			"web-ui/",
+			"web-ui/src/",
+			"web-ui/",
+			"",
+			"/Users/dan/Dropbox/ZMACC/Web Dev/Opening Doors/dev/",
+			"/Users/dan/Dropbox/ZMACC/Web Dev/Opening Doors/dev/wp-content/themes/",
+			"/Users/dan/Dropbox/ZMACC/Web Dev/Opening Doors/dev/",
+			"/Users/dan/Dropbox/ZMACC/Web Dev/Opening Doors/dev/wp-content/themes/opening-doors/",
+			"/Users/dan/Dropbox/ZMACC/Web Dev/Opening Doors/dev/wp-content/",
+			"/Users/dan/Dropbox/ZMACC/Web Dev/Opening Doors/dev/wp-content/plugins/contact-form-7",
+			"/Users/dan/Dropbox/ZMACC/Web Dev/Opening Doors/dev/",
+			"/Users/dan/Dropbox/ZMACC/Web Dev/Opening Doors/dev/wp-content/themes/opening-doors/inc",
+			"/Applications/MAMP/htdocs/bw-dev/",
+			"/Applications/MAMP/htdocs/bw-dev/wp-content/themes/behmer-and-wright/",
+			"/Applications/MAMP/htdocs/bw-dev/wp-content/themes/behmer-and-wright/css/less",
+			"/Applications/MAMP/htdocs/bw-dev/",
+			"/Applications/MAMP/htdocs/bw-dev/wp-content/themes/behmer-and-wright",
+			"/Applications/MAMP/htdocs/wp-sandbox",
+			"/Applications/MAMP/htdocs/bw-dev/",
+			"/Applications/MAMP/htdocs/bw-dev/wp-content/mu-plugins/posts-to-posts",
+			"/Applications/MAMP/htdocs/bw-dev/wp-content/themes/",
+			"/Applications/MAMP/htdocs/bw-dev/",
+			"/Applications/MAMP/htdocs/bw-dev/wp-content/themes/behmer-and-wright/",
+			"/Applications/MAMP/htdocs/bw-dev/",
+			"/Applications/MAMP/htdocs/bw-dev/wp-content/themes/_s",
+			"/Applications/MAMP/htdocs/bw-dev/wp-content/themes/behmer-and-wright",
+			"/Applications/MAMP/htdocs/wp-test/",
+			"/Applications/MAMP/htdocs/wp-test/wp-content/plugins/complete-post-creation",
+			"/Applications/MAMP/htdocs/wp-test/",
+			"/Applications/MAMP/htdocs/wp-test/wp-content/plugins/",
+			"/Applications/MAMP/htdocs/wp-test/",
+			"/Applications/MAMP/htdocs/wp-test/wp-content/plugins/meta-box",
+			"/Applications/MAMP/htdocs/wp-test/wp-content/plugins/complete-post-creation",
+			"/Applications/MAMP/htdocs/wp-test/",
+			"/Applications/MAMP/htdocs/wp-test/wp-content/plugins/posts-to-posts",
+			"/Applications/MAMP/htdocs/wp-test/wp-content/plugins/complete-post-creation",
+			"/Applications/MAMP/htdocs/wp-test/wp-content/plugins",
+			"/Applications/MAMP/htdocs/behmer-and-wright/wp-content/plugins/",
+			"/Applications/MAMP/htdocs/behmer-and-wright/wp-content/plugins/posts-to-posts",
+			"/Applications/MAMP/htdocs/behmer-and-wright/",
+			"/Applications/MAMP/htdocs/behmer-and-wright/wp-content/plugins/posts-to-posts/",
+			"/Applications/MAMP/htdocs/behmer-and-wright/",
+			"/Applications/MAMP/htdocs/behmer-and-wright/wp-content/themes/behmer-and-wright"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"System.Threading",
+			"Console.WriteLine(\n                new st",
+			"Console.WriteLine(",
+			"new String",
+			"String",
+			"var",
+			".Add(new",
+			"new Human",
+			".PadLeft(",
+			"ConsoleApp",
+			"Resolutions",
+			"8BB2217D-0F2D-49D1-97BC-3654ED321F3B",
+			"Microsoft.NETCore.App",
+			"font",
+			" .",
+			"HumanId",
+			"DroidId",
+			"HumanId",
+			"resolve",
+			"name",
+			"chartoglyph",
+			"))",
+			",",
+			"path",
+			"kerningPairs",
+			"getkerningvalue",
+			"getGposKerningValue",
+			"font",
+			"Serraview",
+			"167.433",
+			"cls-5",
+			".cls",
+			"cls-2",
+			"cls-3",
+			"st1 st2 st3",
+			"st0",
+			"-05",
+			"\"-",
+			"-",
+			"/tspan",
+			"</tspan",
+			"letter",
+			"lookup",
+			"autokern",
+			"sessionInfo",
+			"svAppBarDirective",
+			"ctrl",
+			"this",
+			"self",
+			"floorplan-legend",
+			"floorplan",
+			"SvPanelDirective",
+			"on.lo",
+			"selection",
+			"v4",
+			"v4.selection",
+			"toarray",
+			"single",
+			"selection",
+			"remove",
+			"selection",
+			"cache(name)",
+			"selection",
+			"get",
+			"set",
+			"selection",
+			"get(name)",
+			"selection",
+			"factory",
+			"selection",
+			"x",
+			"};",
+			"var ",
+			"selection",
+			"sets",
+			"name",
+			"var ",
+			"var get",
+			"},",
+			": function",
+			"this.",
+			"instances",
+			"selection.",
+			"this",
+			"this.$set",
+			", )",
+			"function (",
+			"SvSelectionSet.prototype",
+			"};",
+			" =",
+			"this",
+			"SvSelectionSet",
+			".selection",
+			"query",
+			"v4.selec",
+			"instances[name]",
+			"queryservice",
+			"QueryService",
+			"queryService",
+			"selections",
+			"set",
+			"SvSelectionsFactory",
+			"selection.contains",
+			"selection",
+			"toSingle",
+			"switc",
+			"SvSelection",
+			"SvSelectionSet",
+			"SvSelection",
+			"selection",
+			"SvSelection",
+			"get",
+			"collectionExpression",
+			"trackby",
+			"chart",
+			"platform",
+			"children",
+			"locations",
+			"nginitdire",
+			"location",
+			"color",
+			"hierarchy",
+			"$options",
+			"orphanNodes",
+			"rootNodes",
+			"old",
+			"regions",
+			"childrenProperty"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sv",
+			"\"lastValidation\": {\\n        \"date\": \\1\\n      },",
+			"box-with-header",
+			"\\",
+			"function (",
+			"convertToType",
+			".number",
+			"this.timestamp = ",
+			"track by timestamp",
+			"fw-view-animation",
+			".",
+			"@",
+			"log-enter",
+			"DurationMetric",
+			"durationMetric",
+			"loadMetric",
+			"freeweight.components.editors",
+			"less",
+			"dz.utilities",
+			"templateUrl: '_components/",
+			"target",
+			"initiative",
+			"Initiative",
+			",",
+			"",
+			"entry-title",
+			"entry-content",
+			"@color-blue",
+			"",
+			"image-link-block",
+			"image-link-block-widget",
+			"margin-bottom: 12px",
+			"margin-bottom: 14px",
+			"margin-bottom: 24px",
+			"line-height: 24px",
+			"title_bg_color",
+			"3e5cb7",
+			"537bd6",
+			"box-shadow: inset 0 1px",
+			"3px",
+			"glyphicon-dir",
+			"../img",
+			"@color-btn-primary-top",
+			"@color-btn-primary-bottom",
+			"btn-hover-",
+			"btn-hover-background-",
+			"btn-hover-",
+			"hello$1",
+			"@defaultLineHeight * 1em",
+			"@defaultLineHeight",
+			"$post_id",
+			"bw_article_id",
+			"bw_article_id_display",
+			"<?php bw_post_id(); ?>",
+			"$zip_fn",
+			"<br>",
+			"bw_redirect_subpage_to_parent",
+			"show_bookmarks",
+			"<h2>$1</h2>",
+			"tender",
+			"architect",
+			"tender",
+			"bw_populate_tender_projects",
+			"tax",
+			"Behmer & Wright",
+			"www.behmerwright.com.au",
+			"Behmer & Wright",
+			"'behmer-and-wright-theme' )",
+			"$count",
+			"img",
+			"xfade",
+			"console.log",
+			"obj",
+			"top",
+			"",
+			".project",
+			"'thumb-preview",
+			".content",
+			"class=\"content\"",
+			"src",
+			"",
+			"jQuery",
+			".bw-fx-sat",
+			"jQuery",
+			"bw-fx-sat-desat",
+			"jQuery",
+			"url(../images/",
+			"",
+			".theme-behmer-wright",
+			"'behmer-and-wright'",
+			"site-navigation",
+			"#main",
+			"@font-stack-caslon",
+			"@font-family-primary",
+			"$image_fn",
+			"consultant",
+			"$&, 'bw-theme'",
+			"BW_THEME",
+			"BW_THEME_PREFIX",
+			"Project Categorie",
+			"Project Category",
+			"Project Categorie",
+			"BW_THEME_PREFIX",
+			"autofinisher",
+			"$iframe",
+			"$&, 'complete-post-creation'",
+			"$', 'complete-post-creation'",
+			"( $",
+			"args",
+			"editPage",
+			"'",
+			"../images/popup/",
+			"response_data",
+			"$post->ID",
+			"set_",
+			"completer",
+			"protected",
+			"completer",
+			"potential_classes",
+			"declared_classes",
+			"",
+			"__",
+			"",
+			"__(",
+			"$id",
+			"sub-contractor",
+			"project",
+			""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 223.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 144.0
+	},
+	"output.variable_get":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "",
+	"project": "graphql-dotnet-resolvers.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"opentype.js",
+				"sv-branding/node_modules/opentype.js/dist/opentype.js"
+			],
+			[
+				"index.css",
+				"index.css"
+			],
+			[
+				"portfolio",
+				"dashboard/portfolio.html"
+			],
+			[
+				"portfoio.html",
+				"dashboard/portfolio.html"
+			],
+			[
+				"selection.html",
+				"platform/services/selection.html"
+			],
+			[
+				"query.html",
+				"platform/services/query.html"
+			],
+			[
+				"ndex.js",
+				"index.js"
+			],
+			[
+				"index.html",
+				"platform/index.html"
+			],
+			[
+				"tree.html",
+				"platform/services/tree.html"
+			],
+			[
+				"index.js",
+				"index.js"
+			],
+			[
+				"angular.js",
+				"node_modules/angular/angular.js"
+			],
+			[
+				"next.html",
+				"dashboard/next.html"
+			],
+			[
+				"portfolio.html",
+				"dashboard/portfolio.html"
+			],
+			[
+				"orgunits.json",
+				"scripts/server/orgunits.json"
+			],
+			[
+				"data.har",
+				"scripts/server/data.har"
+			],
+			[
+				"init.html",
+				"platform/behaviours/init.html"
+			],
+			[
+				"highcharts-ng.js",
+				"node_modules/highcharts-ng/dist/highcharts-ng.js"
+			],
+			[
+				"server/index.js",
+				"scripts/server/index.js"
+			],
+			[
+				"box.html",
+				"platform/components/box.html"
+			],
+			[
+				"location.html",
+				"dashboard/location.html"
+			],
+			[
+				"highcharts.src.",
+				"node_modules/highcharts/highcharts.src.js"
+			],
+			[
+				"http.html",
+				"platform/services/http.html"
+			],
+			[
+				"highcharts.js",
+				"node_modules/highcharts/highcharts.src.js"
+			],
+			[
+				"moment.js",
+				"node_modules/moment/moment.js"
+			],
+			[
+				"orgunits",
+				"scripts/server/orgunits.json"
+			],
+			[
+				"scripts/server/index",
+				"scripts/server/index.js"
+			],
+			[
+				"orgunit.json",
+				"scripts/server/orgunits.json"
+			],
+			[
+				"button.html",
+				"platform/components/button.html"
+			],
+			[
+				"portf",
+				"dashboard/portfolio.html"
+			],
+			[
+				"inde.ht",
+				"index.html"
+			],
+			[
+				"portfol",
+				"dashboard/portfolio.html"
+			],
+			[
+				"package.json",
+				"package.json"
+			],
+			[
+				"query.htl",
+				"platform/services/query.html"
+			],
+			[
+				"query.thml",
+				"platform/services/query.html"
+			],
+			[
+				"http.thml",
+				"platform/services/http.html"
+			],
+			[
+				"selection",
+				"platform/behaviours/selection.html"
+			],
+			[
+				"html.hbs",
+				"node_modules/webfonts-generator/templates/html.hbs"
+			],
+			[
+				"error.html",
+				"platform/services/errors.html"
+			],
+			[
+				"underscore",
+				"node_modules/underscore/underscore.js"
+			],
+			[
+				"angular-under",
+				"node_modules/angular-underscore/angular-underscore.js"
+			],
+			[
+				"portfoli",
+				"dashboard/portfolio.html"
+			],
+			[
+				"fixed-head",
+				"platform/behaviours/fixed-header.html"
+			],
+			[
+				"scripts/server/index.js",
+				"scripts/server/index.js"
+			],
+			[
+				"inde.css",
+				"index.css"
+			],
+			[
+				"scale.js",
+				"node_modules/d3-scale/build/d3-scale.js"
+			],
+			[
+				"status.html",
+				"platform/components/status.html"
+			],
+			[
+				"lodash.js",
+				"node_modules/lodash/lodash.js"
+			],
+			[
+				"underscore.js",
+				"node_modules/underscore/underscore.js"
+			],
+			[
+				"filters.html",
+				"platform/filters.html"
+			],
+			[
+				"status",
+				"platform/components/status.html"
+			],
+			[
+				"status.",
+				"platform/components/status.html"
+			],
+			[
+				"readme.md",
+				"README.md"
+			],
+			[
+				"sv-icons",
+				"assets/fonts/sv-icons.css"
+			],
+			[
+				"app.css",
+				"app.css"
+			],
+			[
+				"ui-",
+				"node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"
+			],
+			[
+				"ui-bootstrap",
+				"node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"
+			],
+			[
+				"utilisation.html",
+				"dashboard/utilisation.html"
+			],
+			[
+				"graphql",
+				"api/v1/graphql"
+			],
+			[
+				"app.js",
+				"app.js"
+			],
+			[
+				"utilisation",
+				"dashboard/utilisation.html"
+			],
+			[
+				"statistic",
+				"platform/components/statistic.html"
+			],
+			[
+				"query/ind",
+				"platform/query/index.js"
+			],
+			[
+				"index.",
+				"platform/index.html"
+			],
+			[
+				"query.",
+				"platform/query/index.js"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"default.less",
+				"default.less"
+			],
+			[
+				"query.js",
+				"angular/components/query/query.js"
+			],
+			[
+				"platform.html",
+				"angular/platform.html"
+			],
+			[
+				"fes",
+				"src/stores/FloorplanEditorStore.js"
+			],
+			[
+				"floorplanac",
+				"src/actions/FloorplanEditorActions.js"
+			],
+			[
+				"shapeactions",
+				"src/actions/ShapeActions.js"
+			],
+			[
+				"fe.js",
+				"src/components/FloorplanEditor.js"
+			],
+			[
+				"fse",
+				"src/components/FloorplanSpaceEditor.js"
+			],
+			[
+				"fse.js",
+				"src/stores/FloorplansStore.js"
+			],
+			[
+				"fea",
+				"src/actions/FloorplanEditorActions.js"
+			],
+			[
+				"fseh",
+				"src/components/FloorplanSpaceEditorHandle.js"
+			],
+			[
+				"floorplan.js",
+				"src/components/Floorplan.js"
+			],
+			[
+				"fes.js",
+				"src/stores/FloorplanEditorStore.js"
+			],
+			[
+				"floorplaneditorpage.js",
+				"src/components/FloorplanEditorPage.js"
+			],
+			[
+				"floorplaneditorstore.js",
+				"src/stores/FloorplanEditorStore.js"
+			],
+			[
+				"server.js",
+				"src/server.js"
+			],
+			[
+				"shapesmixin",
+				"src/mixins/ShapesMixin.js"
+			],
+			[
+				"mergespace",
+				"src/sql/functions/merge_space.sql"
+			],
+			[
+				"floors.js",
+				"src/components/FloorplanSpace.js"
+			],
+			[
+				"floorplaneditorpage",
+				"src/components/FloorplanEditorPage.js"
+			],
+			[
+				"floorplanspace.js",
+				"src/components/FloorplanSpace.js"
+			],
+			[
+				"flooe.js",
+				"src/components/FloorplanEditor.js"
+			],
+			[
+				"floorplaneditor.js",
+				"src/components/FloorplanEditor.js"
+			],
+			[
+				"floorpalneditr",
+				"src/stores/FloorplanEditorStore.js"
+			],
+			[
+				"main.less",
+				"src/main.less"
+			],
+			[
+				"editorpage",
+				"src/components/FloorplanEditorPage.js"
+			],
+			[
+				"spacecoloractions.js",
+				"src/actions/SpaceColorActions.js"
+			],
+			[
+				"shapeactions.js",
+				"src/actions/ShapeActions.js"
+			],
+			[
+				"page",
+				"src/components/FloorplanEditorPage.js"
+			],
+			[
+				"shapemixin.js",
+				"src/mixins/ShapesMixin.js"
+			],
+			[
+				"floorl",
+				"src/components/Floorplan.js"
+			],
+			[
+				"floorplanspace",
+				"src/components/FloorplanSpace.js"
+			],
+			[
+				"snapsvg",
+				"src/node_modules/snapsvg/dist/snap.svg.js"
+			],
+			[
+				"editor.js",
+				"src/components/FloorplanEditor.js"
+			],
+			[
+				"floorplaneditor",
+				"src/components/FloorplanEditor.js"
+			],
+			[
+				"colors.js",
+				"src/mixins/Colors.js"
+			],
+			[
+				"flooplan.js",
+				"src/components/Floorplan.js"
+			],
+			[
+				"floorplans.js",
+				"src/actions/LoadFloorplans.js"
+			],
+			[
+				"main.les",
+				"src/main.less"
+			],
+			[
+				"fakedata",
+				"src/sql/fakedata.sql"
+			],
+			[
+				"main.els",
+				"src/main.less"
+			],
+			[
+				"fep.js",
+				"src/components/FloorplanEditorPage.js"
+			],
+			[
+				"loadfloorplan.js",
+				"src/actions/LoadFloorplan.js"
+			],
+			[
+				"react-intl/lib/mixin",
+				"src/node_modules/react-intl/lib/mixin.js"
+			],
+			[
+				"routes.js",
+				"src/routes.js"
+			],
+			[
+				"application.js",
+				"src/components/Application.js"
+			],
+			[
+				"main.cs",
+				"src/main.css"
+			],
+			[
+				"applicaiton.js",
+				"src/components/Application.js"
+			],
+			[
+				"busboy.js",
+				"src/node_modules/busboy/lib/main.js"
+			],
+			[
+				"ng-tags-input.js",
+				"build/ng-tags-input.js"
+			],
+			[
+				"test-page",
+				"test/test-page.html"
+			],
+			[
+				"auto",
+				"test/auto-complete.spec.js"
+			],
+			[
+				"autocomplete",
+				"src/auto-complete.js"
+			],
+			[
+				"header.php",
+				"wp-content/themes/blaskan/header.php"
+			],
+			[
+				"w-config.php",
+				"wp-config-sample.php"
+			],
+			[
+				"ng-tags",
+				"build/ng-tags-input.js"
+			],
+			[
+				"tag-input.spec",
+				"test/tags-input.spec.js"
+			],
+			[
+				"forms",
+				"src/forms.js"
+			],
+			[
+				"log.less",
+				"web-ui/src/app/log/log.less"
+			],
+			[
+				"enter.tplht",
+				"web-ui/src/app/log/enter.tpl.html"
+			],
+			[
+				"gruntfile.js",
+				"web-ui/Gruntfile.js"
+			],
+			[
+				"animations.less",
+				"web-ui/src/less/animations.less"
+			],
+			[
+				"utilities.js",
+				"web-ui/src/common/utilities/utilities.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

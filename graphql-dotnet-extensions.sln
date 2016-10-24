@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GraphQL.Extensions", "src\GraphQL.Extensions\GraphQL.Extensions.xproj", "{96D04C46-8CC2-4883-BADC-C17BB6FA474F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GraphQL.Annotations", "src\GraphQL.Annotations\GraphQL.Annotations.xproj", "{B3156391-32A5-43F7-8E17-11D8EAF54E2A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GraphQL.TestApp", "src\GraphQL.TestApp\GraphQL.TestApp.xproj", "{F677E4D1-027E-4D6F-AB83-4556841995EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96D04C46-8CC2-4883-BADC-C17BB6FA474F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D04C46-8CC2-4883-BADC-C17BB6FA474F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D04C46-8CC2-4883-BADC-C17BB6FA474F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D04C46-8CC2-4883-BADC-C17BB6FA474F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3156391-32A5-43F7-8E17-11D8EAF54E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3156391-32A5-43F7-8E17-11D8EAF54E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3156391-32A5-43F7-8E17-11D8EAF54E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3156391-32A5-43F7-8E17-11D8EAF54E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F677E4D1-027E-4D6F-AB83-4556841995EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F677E4D1-027E-4D6F-AB83-4556841995EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F677E4D1-027E-4D6F-AB83-4556841995EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F677E4D1-027E-4D6F-AB83-4556841995EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
