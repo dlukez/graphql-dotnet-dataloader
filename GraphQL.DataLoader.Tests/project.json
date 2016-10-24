@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable"
+  },
+  "dependencies": {
+    "GraphQL.DataLoader": "*",
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "System.Runtime.Serialization.Primitives": "4.1.1",
+    "Shouldly": "2.8.2",
+    "xunit": "2.1.0"
+  },
+  "testRunner": "xunit",
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      },
+      "imports": [
+        "dotnet5.4",
+        "portable-net451+win8"
+      ]
+    }
+  }
+}
