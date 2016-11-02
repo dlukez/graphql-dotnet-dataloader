@@ -1,6 +1,7 @@
-using System.Linq;
+using System;
 using GraphQL.TestApp.Data;
 using GraphQL.Types;
+using Microsoft.EntityFrameworkCore;
 
 namespace GraphQL.TestApp.Schema
 {
@@ -10,13 +11,13 @@ namespace GraphQL.TestApp.Schema
         {
             Name = "Query";
 
-            Field<ListGraphType<HumanType>>(
-                "humans",
-                resolve: context => db.Humans.ToList());
+            Field<ListGraphType<HumanType>>()
+                .Name("humans")
+                .Resolve(ctx => db.Humans.ToListAsync());
 
-            Field<ListGraphType<DroidType>>(
-                "droids",
-                resolve: context => db.Droids.ToList());
+            Field<ListGraphType<DroidType>>()
+                .Name("droids")
+                .Resolve(ctx => db.Droids.ToListAsync());
         }
     }
 }

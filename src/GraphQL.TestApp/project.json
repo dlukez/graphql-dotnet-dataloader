@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "GraphQL": "0.13.0.562",
-    "GraphQL.Extensions": "0.0.0-*",
+    "GraphQL.DataLoader": "0.0.0-*",
     "Microsoft.EntityFrameworkCore.Design": {
       "version": "1.0.0-preview2-final",
       "type": "build"

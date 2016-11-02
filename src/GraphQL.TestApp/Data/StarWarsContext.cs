@@ -21,6 +21,11 @@ namespace GraphQL.TestApp.Data
         public string Name { get; set; }
         public string HomePlanet { get; set; }
         public List<Friendship> Friendships { get; set; }
+
+        public override string ToString()
+        {
+            return HumanId.ToString();
+        }
     }
 
     public class Friendship
@@ -34,11 +39,15 @@ namespace GraphQL.TestApp.Data
 
     public class Droid : ICharacter
     {
-        public int Id { get { return DroidId; } }
         public int DroidId { get; set; }
         public string Name { get; set; }
         public string PrimaryFunction { get; set; }
         public List<Friendship> Friendships { get; set; }
+
+        public override string ToString()
+        {
+            return DroidId.ToString();
+        } 
     }
 
     public interface ICharacter

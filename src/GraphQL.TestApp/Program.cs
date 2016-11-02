@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using GraphQL.DataLoader;
 using GraphQL.Http;
 using GraphQL.TestApp.Data;
 using GraphQL.TestApp.Schema;
@@ -25,36 +27,28 @@ namespace GraphQL.TestApp
 
             var query = @" {
                 droids {
+                    droidId
                     name
+                    primaryFunction
                     friends {
                         name
                         ... on Human {
+                            humanId
                             homePlanet
-                        }
-                        friends {
-                            name
                             friends {
-                                name
+                                friends {
+                                    name
+                                }
                             }
                         }
                     }
                 }
-
-                humans {
-                    name
-                    homePlanet
-                    friends {
-                        name
-                    }
-                }
             }";
 
-            Execute(schema, query);
-
-            Console.ReadKey();
+            Execute(schema, query).Wait();
         }
 
-        public static void Execute(
+        public static async Task Execute(
             ISchema schema,
             string query,
             string operationName = null,
@@ -63,11 +57,9 @@ namespace GraphQL.TestApp
             var executer = new DocumentExecuter();
             var writer = new DocumentWriter(true);
             Console.WriteLine("Executing {0}", Regex.Replace(query, @"\s\s+", " "));
-            var task = executer.ExecuteAsync(schema, null, query, operationName, inputs);
-            task.Wait();
-            Console.ReadKey();
-            Console.WriteLine(writer.Write(task.Result));
-            
+            var future = executer.ExecuteAsync(schema, null, query, operationName, inputs).ConfigureAwait(false);
+            FetchQueue.Current.Drain();
+            Console.WriteLine(writer.Write(await future));
         }
 
         private static void InitTestData()

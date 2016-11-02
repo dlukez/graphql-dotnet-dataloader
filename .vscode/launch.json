@@ -6,14 +6,14 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/ResolveGraphQL.dll",
+            "program": "${workspaceRoot}/src/GraphQL.TestApp/bin/Debug/netcoreapp1.0/GraphQL.TestApp.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false,
             "externalConsole": false,
-            "justMyCode": false,
+            "justMyCode": true,
             "enableStepFiltering": false,
-            "symbolPath": ["../graphql-dotnet/"]
+            "symbolPath": []
         },
         {
             "name": ".NET Core Attach",
