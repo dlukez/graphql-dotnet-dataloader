@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using GraphQL.DataLoader;
+using GraphQL.Execution;
 using GraphQL.Http;
 using GraphQL.TestApp.Data;
 using GraphQL.TestApp.Schema;
@@ -45,10 +47,10 @@ namespace GraphQL.TestApp
                 }
             }";
 
-            Execute(schema, query).Wait();
+            Execute(schema, query);
         }
 
-        public static async Task Execute(
+        public static void Execute(
             ISchema schema,
             string query,
             string operationName = null,
@@ -57,9 +59,10 @@ namespace GraphQL.TestApp
             var executer = new DocumentExecuter();
             var writer = new DocumentWriter(true);
             Console.WriteLine("Executing {0}", Regex.Replace(query, @"\s\s+", " "));
-            var future = executer.ExecuteAsync(schema, null, query, operationName, inputs).ConfigureAwait(false);
-            FetchQueue.Current.Drain();
-            Console.WriteLine(writer.Write(await future));
+            
+            var result = executer.ExecuteAsync(schema, null, query, operationName, inputs);
+            FetchQueue.Execute();
+            Console.WriteLine(writer.Write(result.Result));
         }
 
         private static void InitTestData()
