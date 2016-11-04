@@ -9,6 +9,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GraphQL.TestApp", "src\Grap
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GraphQL.DataLoader", "src\GraphQL.DataLoader\GraphQL.DataLoader.xproj", "{3EB6DAEA-226F-44D3-8EA1-D999FA59A101}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GraphQL.Collections", "src\GraphQL.Collections\GraphQL.Collections.xproj", "{03EA5897-45E1-46D3-8614-512D0D7F8999}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3EB6DAEA-226F-44D3-8EA1-D999FA59A101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EB6DAEA-226F-44D3-8EA1-D999FA59A101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EB6DAEA-226F-44D3-8EA1-D999FA59A101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EA5897-45E1-46D3-8614-512D0D7F8999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EA5897-45E1-46D3-8614-512D0D7F8999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EA5897-45E1-46D3-8614-512D0D7F8999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EA5897-45E1-46D3-8614-512D0D7F8999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

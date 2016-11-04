@@ -2,7 +2,7 @@
 
 namespace GraphQL.Annotations
 {
-    [AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
+    [AttributeUsage(AttributeTargets.Method, Inherited = false)]
     public class GraphQLFuncAttribute : Attribute
     {
         public string Name { get; set; }

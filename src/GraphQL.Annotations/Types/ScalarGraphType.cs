@@ -8,7 +8,7 @@ namespace GraphQL.Annotations.Types
     {
         public ScalarGraphType()
         {
-            this.ApplyMetadata<TModelType>();
+            this.ApplyTypeData<TModelType>();
         }
 
         public override string ToString()

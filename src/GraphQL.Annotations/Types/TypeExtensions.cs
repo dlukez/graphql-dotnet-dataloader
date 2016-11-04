@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using GraphQL.Types;
 
@@ -26,6 +27,20 @@ namespace GraphQL.Annotations.Types
                 return typeof(NonNullGraphType<>).MakeGenericType(t.ToGraphType());
 
             return typeInfo.GetCustomAttribute<GraphQLTypeAttribute>()?.GraphType.MakeGenericType(t) ?? t.GetGraphTypeFromType();
+        }
+
+        /// <summary>
+        /// Retrieves all the annotated types in the same namespace as the given type.
+        /// All types should exist in the same namespace to prevent naming conflicts.
+        /// </summary>
+        public static IEnumerable<Type> GraphTypesInNamespace(this Type type)
+        {
+            var assembly = type.Assembly;
+            return assembly.GetTypes()
+                .Where(t => string.Equals(t.Namespace, type.Namespace))
+                .Select(t => t.GetCustomAttribute<GraphQLTypeAttribute>()?.GraphType.MakeGenericType(t))
+                .Where(t => t != null)
+                .ToList();
         }
 
         // public static Type GraphTypeFromType(this Type t)
@@ -69,7 +84,7 @@ namespace GraphQL.Annotations.Types
         //     }
 
         //     Type graphType;
-            
+
         //     if (!nullable)
         //         graphType = typeof(NonNullGraphType<>).MakeGenericType(graphType);
 

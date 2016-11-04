@@ -7,7 +7,7 @@ namespace GraphQL.Annotations.Types
     {
         public Schema(Func<Type, IGraphType> resolveType) : base(resolveType)
         {
-            Query = (IObjectGraphType)ResolveType(typeof(TRootQuery));
+            Query = (IObjectGraphType)resolveType(typeof(TRootQuery));
         }
 
         public override string ToString()

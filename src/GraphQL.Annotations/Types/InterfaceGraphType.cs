@@ -8,8 +8,8 @@ namespace GraphQL.Annotations.Types
         public InterfaceGraphType()
         {
             var type = typeof (TModelType);
-            this.ApplyMetadata<TModelType>();
-            this.ImplementFields();
+            this.ApplyTypeData<TModelType>();
+            this.ApplyProperties();
             Name = GetInterfaceName(type);
         }
 
