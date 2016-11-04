@@ -64,8 +64,8 @@ namespace GraphQL.Annotations.Types
                     if (paramAttr == null)
                         throw new NotSupportedException(
                             string.Format(
-                                "Parameter `{0}` in method {1} is missing a required GraphQLFuncParamAttribute",
-                                param.Name, methodDescription));
+                                "Parameter `{0}` in method {1} is missing a required {2}",
+                                param.Name, methodDescription, nameof(GraphQLArgumentAttribute)));
 
                     parameterArgumentMappings.Add(param, new QueryArgument(param.ParameterType)
                     {
