@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace GraphQL.Annotations.Types
+namespace Serraview.GraphQL.Annotations.Types
 {
-    public class ObjectGraphType<TModelType> : GraphQL.Types.ObjectGraphType<TModelType>
+    public class ObjectGraphType<TModelType> : global::GraphQL.Types.ObjectGraphType<TModelType>
         where TModelType : class
     {
-        public ObjectGraphType()
+        public ObjectGraphType(params object[] injectedParameters)
         {
             this.ApplyTypeData<TModelType>();
             this.ApplyProperties();
-            this.ApplyMethods(true);
+            this.ApplyMethods(injectedParameters, true);
             ImplementInterfaces();
         }
 

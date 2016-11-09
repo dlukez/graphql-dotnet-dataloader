@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Reflection;
 
-namespace GraphQL.Annotations.Types
+namespace Serraview.GraphQL.Annotations.Types
 {
-    public class InterfaceGraphType<TModelType> : GraphQL.Types.InterfaceGraphType<TModelType>
+    public class InterfaceGraphType<TModelType> : global::GraphQL.Types.InterfaceGraphType<TModelType>
     {
-        public InterfaceGraphType()
+        public InterfaceGraphType(params object[] injectedParameters)
         {
             var type = typeof (TModelType);
             this.ApplyTypeData<TModelType>();
             this.ApplyProperties();
+            this.ApplyMethods(injectedParameters, false);
             Name = GetInterfaceName(type);
         }
 

@@ -1,13 +1,14 @@
 ﻿using System;
+using GraphQL;
 
-namespace GraphQL.Annotations
+namespace Serraview.GraphQL.Annotations
 {
     public abstract class GraphQLTypeAttribute : Attribute
     {
         protected GraphQLTypeAttribute(Type type)
         {
             if (!type.IsGraphType())
-                throw new ArgumentException("Expected a GraphType.", nameof(type));
+                throw new ArgumentException("Expected a GraphType.", "type");
 
             GraphType = type;
         }

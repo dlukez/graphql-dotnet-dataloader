@@ -1,7 +1,7 @@
 ﻿using System;
-using GraphQL.Annotations.Types;
+using Serraview.GraphQL.Annotations.Types;
 
-namespace GraphQL.Annotations
+namespace Serraview.GraphQL.Annotations
 {
     [AttributeUsage(AttributeTargets.Struct | AttributeTargets.Class, Inherited = false)]
     public class GraphQLScalarAttribute : GraphQLTypeAttribute

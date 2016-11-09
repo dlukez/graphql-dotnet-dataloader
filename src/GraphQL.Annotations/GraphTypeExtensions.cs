@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using GraphQL.Resolvers;
 using GraphQL.Types;
+using Serraview.GraphQL.Annotations.Resolvers;
 
-namespace GraphQL.Annotations.Types
+namespace Serraview.GraphQL.Annotations
 {
-    public static class TypeHelper
+    public static class GraphTypeExtensions
     {
-        public static void ApplyMetadata<TModelType>(this GraphType instance)
+        public static void ApplyTypeData<TModelType>(this GraphType instance)
         {
             var type = typeof (TModelType);
             var metadata = type.GetTypeInfo().GetCustomAttribute<GraphQLTypeAttribute>();
@@ -24,7 +24,7 @@ namespace GraphQL.Annotations.Types
             instance.Description = metadata.Description;
         }
 
-        public static void ImplementFields<TModelType>(this ComplexGraphType<TModelType> instance)
+        public static void ApplyProperties<TModelType>(this ComplexGraphType<TModelType> instance)
         {
             var type = typeof (TModelType);
             foreach (var prop in type.GetProperties(BindingFlags.Public | BindingFlags.IgnoreCase | BindingFlags.Instance))
@@ -42,7 +42,7 @@ namespace GraphQL.Annotations.Types
             }
         }
         
-        public static void ImplementFuncs<TModelType>(this ComplexGraphType<TModelType> instance, Func<MethodInfo, Dictionary<ParameterInfo, QueryArgument>, IFieldResolver> resolverFactory = null)
+        public static void ApplyMethods<TModelType>(this ComplexGraphType<TModelType> instance, object[] injectedParameters, bool shouldResolve)
         {
             var type = typeof (TModelType);
 
@@ -56,18 +56,17 @@ namespace GraphQL.Annotations.Types
                 var methodParams = method.GetParameters();
                 var parameterArgumentMappings = new Dictionary<ParameterInfo, QueryArgument>();
 
-                // Ensure arguments have the attributes
-                var queryParameters = methodParams.Skip(1).ToArray();
-                foreach (var param in queryParameters)
+                // Ensure query parameters are annotated
+                foreach (var param in methodParams.Skip(injectedParameters.Length + 1))
                 {
                     var paramAttr = param.GetCustomAttribute<GraphQLArgumentAttribute>();
                     if (paramAttr == null)
-                        throw new NotSupportedException(
+                        throw new ArgumentException(
                             string.Format(
-                                "Parameter `{0}` in method {1} is missing a required GraphQLFuncParamAttribute",
+                                "Parameter `{0}` in method {1} is missing a required GraphQLArgumentAttribute",
                                 param.Name, methodDescription));
 
-                    parameterArgumentMappings.Add(param, new QueryArgument(param.ParameterType)
+                    parameterArgumentMappings.Add(param, new QueryArgument(param.ParameterType.ToGraphType())
                     {
                         Name = paramAttr.Name ?? param.Name,
                         Description = paramAttr.Description
@@ -88,14 +87,14 @@ namespace GraphQL.Annotations.Types
                     Name = funcAttr.Name ?? method.Name.FirstCharacterToLower(),
                     Description = funcAttr.Description,
                     Arguments = new QueryArguments(parameterArgumentMappings.Values),
-                    Resolver = resolverFactory?.Invoke(method, parameterArgumentMappings)
+                    Resolver = shouldResolve ? new MethodResolver<TModelType>(method, injectedParameters, parameterArgumentMappings) : null
                 });
             }
         }
 
         private static string FirstCharacterToLower(this string s)
         {
-            return s.Substring(0,1).ToLower() + s.Skip(1);
+            return s.Substring(0, 1).ToLower() + s.Skip(1);
         }
     }
 }

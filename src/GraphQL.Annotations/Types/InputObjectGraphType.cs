@@ -1,6 +1,6 @@
 ﻿using GraphQL.Types;
 
-namespace GraphQL.Annotations.Types
+namespace Serraview.GraphQL.Annotations.Types
 {
     public class InputObjectGraphType<TModelType> : ComplexGraphType<TModelType>
     {

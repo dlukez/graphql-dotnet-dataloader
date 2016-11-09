@@ -2,7 +2,7 @@
 using GraphQL.Language.AST;
 using GraphQL.Types;
 
-namespace GraphQL.Annotations.Types
+namespace Serraview.GraphQL.Annotations.Types
 {
     public class ScalarGraphType<TModelType> : ScalarGraphType
     {

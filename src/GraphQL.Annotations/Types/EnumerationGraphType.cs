@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 using GraphQL.Types;
 
-namespace GraphQL.Annotations.Types
+namespace Serraview.GraphQL.Annotations.Types
 {
     /// <summary>
     /// Copy of EnumType[T] from GraphQL.Tests.

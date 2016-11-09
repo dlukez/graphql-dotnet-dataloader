@@ -1,13 +1,22 @@
 using System;
 using GraphQL.Types;
 
-namespace GraphQL.Annotations.Types
+namespace Serraview.GraphQL.Annotations.Types
 {
     public class Schema<TRootQuery> : Schema where TRootQuery : class
     {
-        public Schema(Func<Type, IGraphType> resolveType) : base(resolveType)
+        public Schema(params object[] injectedObjects)
         {
-            Query = (IObjectGraphType)resolveType(typeof(ObjectGraphType<TRootQuery>));
+            ResolveType = t =>
+            {
+                var genericType = t.IsGenericType ? t.GetGenericTypeDefinition() : null;
+                if (genericType != null &&
+                    (genericType == typeof(ObjectGraphType<>) || genericType == typeof(InterfaceGraphType<>)))
+                    return (GraphType) Activator.CreateInstance(t, injectedObjects);
+                return (GraphType) Activator.CreateInstance(t);
+            };
+
+            Query = (IObjectGraphType)ResolveType(typeof(ObjectGraphType<TRootQuery>));
         }
 
         public override string ToString()

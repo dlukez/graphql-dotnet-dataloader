@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GraphQL.Annotations
+namespace Serraview.GraphQL.Annotations
 {
     [AttributeUsage(AttributeTargets.Parameter)]
     public class GraphQLArgumentAttribute : Attribute
