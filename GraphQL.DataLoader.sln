@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GraphQL.DataLoader", "GraphQL.DataLoader\GraphQL.DataLoader.xproj", "{3EB6DAEA-226F-44D3-8EA1-D999FA59A101}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GraphQL.DataLoader", "src\GraphQL.DataLoader\GraphQL.DataLoader.xproj", "{E26E5377-733F-4CA1-A2CE-4D339B316E90}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GraphQL.DataLoader.StarWarsApp", "GraphQL.DataLoader.StarWarsApp\GraphQL.DataLoader.StarWarsApp.xproj", "{F677E4D1-027E-4D6F-AB83-4556841995EA}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GraphQL.DataLoader.Tests", "GraphQL.DataLoader.Tests\GraphQL.DataLoader.Tests.xproj", "{B42AB90F-276B-478F-B04C-1DDD8DD1933D}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GraphQL.DataLoader.StarWars", "example\GraphQL.DataLoader.StarWars\GraphQL.DataLoader.StarWars.xproj", "{8E469F11-59AE-40C6-8EC0-27D387C8C0E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F677E4D1-027E-4D6F-AB83-4556841995EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F677E4D1-027E-4D6F-AB83-4556841995EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F677E4D1-027E-4D6F-AB83-4556841995EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F677E4D1-027E-4D6F-AB83-4556841995EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3EB6DAEA-226F-44D3-8EA1-D999FA59A101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EB6DAEA-226F-44D3-8EA1-D999FA59A101}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EB6DAEA-226F-44D3-8EA1-D999FA59A101}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EB6DAEA-226F-44D3-8EA1-D999FA59A101}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B42AB90F-276B-478F-B04C-1DDD8DD1933D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B42AB90F-276B-478F-B04C-1DDD8DD1933D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B42AB90F-276B-478F-B04C-1DDD8DD1933D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B42AB90F-276B-478F-B04C-1DDD8DD1933D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E469F11-59AE-40C6-8EC0-27D387C8C0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E469F11-59AE-40C6-8EC0-27D387C8C0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E469F11-59AE-40C6-8EC0-27D387C8C0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E469F11-59AE-40C6-8EC0-27D387C8C0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26E5377-733F-4CA1-A2CE-4D339B316E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26E5377-733F-4CA1-A2CE-4D339B316E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26E5377-733F-4CA1-A2CE-4D339B316E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26E5377-733F-4CA1-A2CE-4D339B316E90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

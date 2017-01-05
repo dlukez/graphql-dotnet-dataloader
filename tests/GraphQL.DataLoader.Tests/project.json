@@ -1,0 +1,24 @@
+{
+  "testRunner": "xunit",
+  "buildOptions": {
+    "debugType": "portable"
+  },
+  "dependencies": {
+    "DataLoader.GraphQL": { "target": "project" },
+    "GraphQL": "0.14.0.633",
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0"
+    },
+    "Shouldly": "2.8.2",
+    "xunit": "2.1.0"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6"
+      ]
+    }
+  }
+}

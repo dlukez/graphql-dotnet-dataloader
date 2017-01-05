@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "DataLoader.StarWars": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5000/index.html"
+    }
+  }
+}

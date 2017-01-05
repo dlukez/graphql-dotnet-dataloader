@@ -2,24 +2,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": ".NET Core Launch (console)",
+            "name": "Launch GraphQL API Example",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/GraphQL.DataLoader.StarWarsApp/bin/Debug/netcoreapp1.0/GraphQL.DataLoader.StarWarsApp.dll",
+            "program": "${workspaceRoot}/example/DataLoader.StarWars/bin/Debug/netcoreapp1.0/DataLoader.StarWars.dll",
             "args": [],
-            "cwd": "${workspaceRoot}",
+            "cwd": "${workspaceRoot}/example/DataLoader.StarWars/",
             "stopAtEntry": false,
             "externalConsole": false,
             "justMyCode": true,
             "enableStepFiltering": false,
             "symbolPath": []
-        },
-        {
-            "name": ".NET Core Attach",
-            "type": "coreclr",
-            "request": "attach",
-            "processId": "${command.pickProcess}"
         }
     ]
 }

@@ -1,3 +1,8 @@
+# Third-party components
+node_modules/
+bower_components/
+packages/
+
 # User-specific files
 *.suo
 *.user
@@ -8,6 +13,7 @@
 
 # Project files
 .vs/
+.idea/
 project.lock.json
 _ReSharper*/
 *.[Rr]e[Ss]harper
